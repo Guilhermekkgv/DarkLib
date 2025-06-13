@@ -939,7 +939,7 @@ function Linux.Create(config)
             TitleFrame.Visible = true
             TabText.TextColor3 = Color3.fromRGB(255, 255, 255)
             TabBtn.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-            TabBtn.BackgroundTransparency = 0
+            TabBtn.BackgroundTransparency = 1
             
     Linux.Instance("UICorner", {
         Parent = TabBtn,
