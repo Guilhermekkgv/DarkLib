@@ -885,7 +885,7 @@ function Linux.Create(config)
         
         local Container = Linux.Instance("ScrollingFrame", {
             Parent = TabContent,
-            BackgroundTransparency = 1,
+            BackgroundTransparency = 0,
             Size = UDim2.new(1, -16, 1, -70),
             Position = UDim2.new(0, 12, 0, 55),
             CanvasSize = UDim2.new(0, 0, 0, 0),
